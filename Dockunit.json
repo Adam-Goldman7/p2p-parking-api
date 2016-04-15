@@ -1,0 +1,15 @@
+{
+    "containers": [
+
+        {
+            "prettyName": "Node Latest",
+            "image": "dockunit/prebuilt-images:nodejs-mongodb-mocha-jasmine-4.2.1",
+            "beforeScripts": [
+                "npm install",
+                "npm install -g mocha"
+            ],
+            "testCommand": "mocha server/**/*.spec.js -w"
+        }
+
+    ]
+}

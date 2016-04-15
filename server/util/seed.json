@@ -1,0 +1,59 @@
+{
+
+  "users": [
+    { "isAdmin": true, "phone": "000", "password": "getById", "name": "adminOf6", "parkingId": "56f04089cab8bfde77c236d3", "_id": "56f46358c558e7a529b0b42b" },
+    { "phone": "001", "password": "putSucceed", "name": "putSucceed", "parkingId": "56f045a7cab8bfde77c236d4", "_id": "56f46365c558e7a529b0b42c" },
+    { "phone": "002", "password": "callPutFail", "name": "callPutFail", "parkingId": "56f045b0cab8bfde77c236d5", "_id": "56f4636ec558e7a529b0b42d" },
+    { "phone": "003", "password": "calledPutFail", "name": "calledPutFail", "parkingId": "56f045b7cab8bfde77c236d6", "_id": "56f46375c558e7a529b0b42e" },
+    { "phone": "004", "password": "gets booked", "name": "gets booked", "parkingId": "56f045bfcab8bfde77c236d7", "_id": "56f4637bc558e7a529b0b42f" },
+    { "phone": "005", "password": "empty", "name": "empty", "parkingId": "56f045c5cab8bfde77c236d8", "_id": "56f46382c558e7a529b0b430" },
+    { "isAdmin": true, "phone": "006", "password": "putBuildingSucceed", "name": "adminOf1", "parkingId": "56f045cdcab8bfde77c236d9", "_id": "56f46389c558e7a529b0b431" },
+    { "isAdmin": true, "phone": "007", "password": "empty", "name": "adminOf2", "parkingId": "56f045d2cab8bfde77c236da", "_id": "56f46390c558e7a529b0b432" },
+    { "phone": "008", "password": "putBuildingFail", "name": "putBuildingFail", "parkingId": "56f045d9cab8bfde77c236db", "_id": "56f46396c558e7a529b0b433" },
+    { "phone": "009", "password": "putBuildingFail", "name": "adminOf0", "parkingId": "56f045e0cab8bfde77c236dc", "_id": "56f4639cc558e7a529b0b434" },
+    { "isAdmin": true, "phone": "010", "password": "putBuildingFail", "name": "adminOf0", "parkingId": "56f12ab7136e866553058e75", "_id": "56f463a1c558e7a529b0b435" },
+    { "phone": "011", "password": "postParking", "name": "test post parking", "_id": "56f47f47173fc350453e66d4" },
+    { "phone": "012", "password": "postParking", "name": "test post parking wrong building password", "_id": "56f4834c4553255f50e5c045" },
+    { "phone": "013", "password": "first as admin", "name": "first as admin", "_id": "56f484dfb304f4ea522aa6b5" },
+    { "phone": "014", "password": "non first as not admin", "name": "non first as not admin", "_id": "56f5c57e63cb81a7148778a2" },
+    { "phone": "015", "password": "books parking 4", "name": "books parking 4", "_id": "56f5d755340883743e85c7c8" },
+    { "phone": "016", "password": "starts parking 5", "name": "starts parking 5", "_id": "56f5f355df1d5a376fc43306" },
+    { "phone": "017", "password": "ends parking 11", "name": "ends parking 11", "_id": "56f619ce4c18778232e0855b" },
+    { "phone": "018", "password": "always availble", "name": "always availble", "_id": "56f61ff82bd2403e3e80310b" },
+    { "phone": "019", "password": "owner 11", "name": "owner 11", "_id": "56f6325b0e95e93b59423b4d" }
+  ],
+
+  "parkings": [
+    { "buildingPassword": "mostParkings", "spot": 0, "buildingId": "56f03fbecab8bfde77c236d1", "_id": "56f04089cab8bfde77c236d3", "userId": "56f46358c558e7a529b0b42b" },
+    { "buildingPassword": "mostParkings", "spot": 1, "buildingId": "56f03fbecab8bfde77c236d1", "_id": "56f045a7cab8bfde77c236d4", "userId": "56f46365c558e7a529b0b42c" },
+    { "buildingPassword": "mostParkings", "spot": 2, "buildingId": "56f03fbecab8bfde77c236d1", "_id": "56f045b0cab8bfde77c236d5", "userId": "56f4636ec558e7a529b0b42d" },
+    { "buildingPassword": "mostParkings", "spot": 3, "buildingId": "56f03fbecab8bfde77c236d1", "_id": "56f045b7cab8bfde77c236d6", "userId": "56f46375c558e7a529b0b42e" },
+    { "availability": { "current": true }, "buildingPassword": "mostParkings", "spot": 4, "buildingId": "56f03fbecab8bfde77c236d1", "_id": "56f045bfcab8bfde77c236d7", "userId": "56f4637bc558e7a529b0b42f" },
+    { "availability": { "current": false }, "buildingPassword": "mostParkings", "spot": 5, "buildingId": "56f03fbecab8bfde77c236d1", "_id": "56f045c5cab8bfde77c236d8", "userId": "56f46382c558e7a529b0b430" },
+    { "buildingPassword": "putSucceed", "spot": 6, "buildingId": "56ed4746586ec03c7ac80eae", "_id": "56f045cdcab8bfde77c236d9", "userId": "56f46389c558e7a529b0b431" },
+    { "buildingPassword": "putFail", "spot": 7, "buildingId": "56ef0af4e43cb8262bd66da8", "_id": "56f045d2cab8bfde77c236da", "userId": "56f46390c558e7a529b0b432" },
+    { "buildingPassword": "putFail", "spot": 8, "buildingId": "56ef0af4e43cb8262bd66da8", "_id": "56f045d9cab8bfde77c236db", "userId": "56f46396c558e7a529b0b433" },
+    { "buildingPassword": "getById", "spot": 9, "buildingId": "56ed4735a452255c7a87d2d4", "_id": "56f045e0cab8bfde77c236dc", "userId": "56f4639cc558e7a529b0b434" },
+    { "buildingPassword": "distant", "spot": 10, "buildingId": "56f12a84136e866553058e74", "_id": "56f12ab7136e866553058e75", "userId": "56f463a1c558e7a529b0b435" },
+    { "availability": { "current": false }, "buildingPassword": "mostParkings", "spot": 11, "buildingId": "56f03fbecab8bfde77c236d1", "_id": "56f619b14c18778232e0855a", "userId": "56f6325b0e95e93b59423b4d" },
+    { "availability": { "current": true }, "buildingPassword": "mostParkings", "spot": 12, "buildingId": "56f03fbecab8bfde77c236d1", "_id": "56f61fea2bd2403e3e80310a", "userId": "56f61ff82bd2403e3e80310b" }
+  ],
+
+  "parked": [
+    { "parkingId": "56f045c5cab8bfde77c236d8", "parkerId": "56f5f355df1d5a376fc43306", "status": "booked", "_id": "56f60b7ef4994d321855d278" },
+    { "parkingId": "56f619b14c18778232e0855a", "parkerId": "56f619ce4c18778232e0855b", "status": "parking", "_id": "56f61b04e78c727334b6cad5" }
+  ],
+
+  "buildings": [
+    { "adminId": "56f045e0cab8bfde77c236dc", "address": "Wall St 10", "password": "getById", "_id": "56ed4735a452255c7a87d2d4" , "price": 5, "location": [40.7075029,-74.0134607]},
+    { "adminId": "56f045cdcab8bfde77c236d9", "address": "Beaver St 11", "password": "putSucceed", "_id": "56ed4746586ec03c7ac80eae" , "price": 5, "location": [40.7050177,-74.0149531]},
+    { "adminId": "56f045d2cab8bfde77c236da", "address": "Pine St 12", "password": "putFail", "_id": "56ef0af4e43cb8262bd66da8" , "price": 5, "location": [40.7078801,-74.0127234]},
+    { "address": "Wall St 13", "password": "empty", "_id": "56f03f1b5e191a02760df869" , "price": 5, "location": [40.7073844,-74.0132736]},
+    { "address": "Wall St 14", "password": "empty", "_id": "56f03f2f5e191a02760df86a" , "price": 5, "location": [40.7076386,-74.0129635]},
+    { "address": "Wall St 15", "password": "empty", "_id": "56f03f3a5e191a02760df86b" , "price": 5, "location": [40.7072658,-74.0130866]},
+    { "adminId": "56f04089cab8bfde77c236d3", "address": "Broad St 16", "password": "mostParkings", "_id": "56f03fbecab8bfde77c236d1" , "price": 5, "location": [40.7067377,-74.0130838]},
+    { "address": "New St 17", "password": "makeFirstAdmin", "_id": "56f03fd5cab8bfde77c236d2", "price": 5, "location": [40.7069856,-74.0137945] },
+    { "adminId": "56f12ab7136e866553058e75", "address": "Spruce St 16", "password": "distant", "_id": "56f12a84136e866553058e74", "price": 5, "location": [40.7114079,-74.0077649] }
+  ]
+
+}
